@@ -139,8 +139,8 @@
 
 /* Header Menu - Item Hover Effect */
 .header-menu .header-menu-item:hover {
-    color: rgb(28, 76, 138); /* Text turns blue */
-    border-bottom: 4px solid rgb(28, 76, 138); /* Bottom border turns blue */
+    color: #15ABFF; /* Text turns blue */
+    border-bottom: 4px solid #15ABFF; /* Bottom border turns blue */
 }
 
 /* Header Menu - Selected item */
