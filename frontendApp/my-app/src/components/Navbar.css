@@ -66,6 +66,7 @@
     flex-direction: column;
     gap: 0px; /* Reduce gap for smaller screens */
     padding: 2px 0; /* Adjust padding for smaller screens */
+    background-image: url(../Media/arno22.jpg);
   }
 
   .contact-info,
@@ -86,6 +87,7 @@
     flex-direction: column;
     gap: 0px; /* Further reduce gap for very small screens */
     padding: 0px 0; /* Adjust padding for very small screens */
+    background-image: url(../Media/arno22.jpg);
   }
 
   .contact-info,
