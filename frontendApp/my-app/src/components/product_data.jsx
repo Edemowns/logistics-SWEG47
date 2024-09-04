@@ -8,7 +8,7 @@ const product_data = {
         description: "High-security bolt seal...",
         price: 100,
         currency: "GHC",
-        thumb: require('../Media/PsSQ.jpg'),
+        thumb: require('../Media/whitebolt.png'),
       },
       {
         id: 2,
