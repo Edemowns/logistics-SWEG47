@@ -2,9 +2,16 @@ import React from 'react';
 import './Product.css';
 import product_data from './product_data.jsx'; // Import the product data
 import { useNavigate } from 'react-router-dom';
+import BoltImage from '../Media/P8Q.jpg';
+import PlasticImage from '../Media/p4Q.jpg';
+import CableImage from '../Media/p7Q.jpg';
 
 const TextBox = () => {
   const navigate = useNavigate();
+
+  const handleNavigate = (path) => {
+    navigate(path);
+  };
 
   const handleImageClick = (product) => {
     navigate(`/product/${product.id}`); // Navigate to the ProductDetailPage
@@ -22,6 +29,44 @@ const TextBox = () => {
 
   return (
     <div className="text-box-container">
+      <div
+        className="container323"
+        onClick={() => handleNavigate('/bolt-seals')}
+      >
+        <div className="container323-text">Bolt Seals</div>
+        <img
+          src={BoltImage}
+          alt="Bolt Seals Category"
+          className="container323-image"
+        />
+      </div>
+
+      <div
+        className="container3231"
+        onClick={() => handleNavigate('/cable-seals')}
+      >
+        <div className="container323-text">Cable Seals</div>
+        <img
+          src={CableImage}
+          alt="Cable Seals Category"
+          className="container323-image"
+        />
+      </div>
+
+      <div
+        className="container3232"
+        onClick={() => handleNavigate('/plastic-seals')}
+      >
+        <div className="container323-text">Plastic Seals</div>
+        <img
+          src={PlasticImage}
+          alt="Plastic Seals Category"
+          className="container323-image"
+        />
+      </div>
+
+      <h1 className="products-title">Featured Products</h1>
+
       <div className="category-products">
         {shuffledProducts.map(product => (
           <div className="text-box" key={product.id} onClick={() => handleImageClick(product)}>

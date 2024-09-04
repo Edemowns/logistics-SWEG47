@@ -26,7 +26,7 @@ const Home = () => {
       <Header />
       <ImageSlider onNavigateToProduct={handleNavigateToProduct} />
       <div ref={productSectionRef} className="products-container">
-        <h1 className="products-title">Featured Products</h1>
+        <h1 className="products-title">Product Categories</h1>
         <TextBox />
       </div>
       <DepartmentEvents />
