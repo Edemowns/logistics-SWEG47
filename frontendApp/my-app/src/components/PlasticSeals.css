@@ -184,13 +184,13 @@
       }
 
     
-    .Products-container321 {
+    .Products-container3212 {
       width: calc(50% - 10px); /* 2 products per row */
       height: 380px;
       margin-bottom: 10px; /* Add space between product rows */
       
     }
-    .Products-container321 .product-description12 {
+    .Products-container3212 .product-description12 {
         font-size: 12px;
         line-height: 30px;
         font-weight: 400;
@@ -198,12 +198,12 @@
         line-height: 10px;
         margin-top: 30px;
       }
-      .Products-container321 .product-name12{
+      .Products-container3212 .product-name12{
         margin-left: -120px;
         line-height: 10px;
       }
 
-      .Products-container321 .product-price12 {
+      .Products-container3212 .product-price12 {
         font-size: 12px;
         line-height: 50px;
         font-weight: 400;
@@ -222,7 +222,7 @@
       width: 100%;
     }
 
-    .Products-container321 {
+    .Products-container3212 {
         width: calc(50% - 5px); /* 2 products per row */
         height: 330px;
       margin-bottom: 10px; /* Add space between product rows */
@@ -237,7 +237,7 @@
       }
       
 
-    .Products-container321 .product-description12 {
+    .Products-container3212 .product-description12 {
         font-size: 11px;
         line-height: -10px;
         font-weight: 400;
@@ -245,14 +245,14 @@
         margin-top: 15px;
         text-align: left;
       }
-      .Products-container321 .product-name12{
+      .Products-container3212 .product-name12{
         margin-left: -30px;
         font-size: 15px;
         line-height: 10px;
         text-align: left;
       }
 
-      .Products-container321 .product-price12 {
+      .Products-container3212 .product-price12 {
         font-size: 12px;
         line-height: 25px;
         font-weight: 300;
