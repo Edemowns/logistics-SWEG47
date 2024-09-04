@@ -3,10 +3,12 @@ import product_data from '../components/product_data';
 import './PlasticSeals.css'; // Import the CSS file
 import MobileHeader from '../components/MobileHeader';
 import Header from '../components/Header'
+import { useCart } from '../components/CartContext';
 
 const PlasticSeals = () => {
   const filteredPlasticSeals = product_data.plasticSeals.filter((seal) => seal.price >= 150);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const { addToCart } = useCart();
 
   useEffect(() => {
     const handleResize = () => {
@@ -46,6 +48,15 @@ const PlasticSeals = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const handleAddToCart = (seal, event) => {
+    addToCart(seal);
+    const button = event.currentTarget;
+    button.classList.add('clicked');
+    setTimeout(() => {
+      button.classList.remove('clicked');
+    }, 200);
+  };
+
 
   return (
     <div>
@@ -55,12 +66,17 @@ const PlasticSeals = () => {
       <div className="product-list12">
         {filteredPlasticSeals.length > 0 ? (
           filteredPlasticSeals.map((seal) => (
-            <div key={seal.id} className="Products-container321">
+            <div key={seal.id} className="Products-container3212">
               <img src={seal.thumb} alt={seal.product_name} className="image" />
               <div className="product-name12">{seal.product_name}</div>
               <div className="product-description12">{seal.description}</div>
-              <div className="product-price12">{`${seal.currency} ${seal.price}`}</div>
-              <button className="button321">Add to Cart</button>
+              <div className="product-price122">{`${seal.currency} ${seal.price}`}</div>
+              <button
+              className="button321"
+              onClick={(event) => handleAddToCart(seal, event)}
+            >
+              Add to Cart
+            </button>
             </div>
           ))
         ) : (

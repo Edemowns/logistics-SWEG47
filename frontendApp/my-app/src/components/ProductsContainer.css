@@ -9,14 +9,15 @@
   }
   
   /* Featured Products Text */
-  .featuredP-text {
+  .featuredP-text1 {
+    margin-top: 20px; /* Add some margin to create space from the slider */
+    margin-left: -150px;
     font-family: Lexend, sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 700;
-    color: #000000;
-    margin: 20px; /* Margin for spacing */
-    text-align: left;
+    color: #000000FF;
+    position: relative; /* Changed from absolute to relative */
   }
   
   .product-list {

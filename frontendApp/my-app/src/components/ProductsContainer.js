@@ -23,7 +23,7 @@ const ProductsContainer = () => {
 
   return (
     <div className="nd-container">
-      <div className="featuredP-text">Featured Products</div>
+      <div className="featuredP-text1">Featured Products</div>
       <div className="product-list">
         {allProducts.map((product) => (
           <div key={product.id} className="Products-container32">

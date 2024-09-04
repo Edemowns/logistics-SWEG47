@@ -3,10 +3,12 @@ import product_data from '../components/product_data';
 import './BoltSeals.css'; // Import the CSS file
 import MobileHeader from '../components/MobileHeader';
 import Header from '../components/Header'
+import { useCart } from '../components/CartContext';
 
 const BoltSeals = () => {
   const filteredBoltSeals = product_data.boltSeals.filter((seal) => seal.price > 50);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const { addToCart } = useCart();
 
   useEffect(() => {
     const handleResize = () => {
@@ -44,6 +46,16 @@ const BoltSeals = () => {
    useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const handleAddToCart = (seal, event) => {
+    addToCart(seal);
+    const button = event.currentTarget;
+    button.classList.add('clicked');
+    setTimeout(() => {
+      button.classList.remove('clicked');
+    }, 200);
+  };
+
   
 
   return (
@@ -58,7 +70,12 @@ const BoltSeals = () => {
             <div className="product-name12">{seal.product_name}</div>
             <div className="product-description12">{seal.description}</div>
             <div className="product-price12">{`${seal.currency} ${seal.price}`}</div>
-            <button className="button321">Add to Cart</button>
+            <button
+              className="button321"
+              onClick={(event) => handleAddToCart(seal, event)}
+            >
+              Add to Cart
+            </button>
           </div>
         ))}
       </div>

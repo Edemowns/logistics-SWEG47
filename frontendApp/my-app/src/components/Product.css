@@ -1,4 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+/* Parent container for the product boxes */
+
+
+/* Ensure .container323 components are aligned side by side */
+.container323 {
+  width: 460px;/* Adjust to fit three items side by side */
+  max-width: 80%;
+  height: 265px;
+  background: #FFFFFFFF;
+  border-radius: 0px;
+  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+  display: flex; /* Flexbox for layout */
+  align-items: center; /* Center content vertically */
+  justify-content: space-between; /* Space between text and image */
+  padding: -60px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.container323:hover {
+  transform: scale(1.04);
+  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+}
+.container3231 {
+  width: 460px;/* Adjust to fit three items side by side */
+  max-width: 80%;
+  height: 265px;
+  background: #FFFFFFFF;
+  border-radius: 0px;
+  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+  display: flex; /* Flexbox for layout */
+  align-items: center; /* Center content vertically */
+  justify-content: space-between; /* Space between text and image */
+  padding: -60px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-left: -6px;
+  margin-top: 10px;
+  
+}
+.container3231:hover {
+  transform: scale(1.04);
+  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+}
+.container3232 {
+  width: 460px;/* Adjust to fit three items side by side */
+  max-width: 80%;
+  height: 265px;
+  background: #FFFFFFFF;
+  border-radius: 0px;
+  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+  display: flex; /* Flexbox for layout */
+  align-items: center; /* Center content vertically */
+  justify-content: space-between; /* Space between text and image */
+  padding: -60px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  margin-right: 35px;
+  margin-top: 10px;
+}
+.container3232:hover {
+  transform: scale(1.04);
+  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+}
+
+/* Text within the Container */
+.container323-text {
+  width: 202px;
+  font-family: Lexend, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #171A1FFF;
+  margin-left: -47px;
+  align-self: flex-start;
+  margin-top: 13px;
+}
+
+/* Image within the Container */
+.container323-image {
+  width: 182px;
+  height: 235px;
+  border-radius: 3px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+
+
 .products-container {
   margin-top: 20px;
   text-align: center;
@@ -22,8 +112,9 @@
 
 .text-box-container {
   display: flex;
-  flex-direction: column; /* Stack categories vertically */
-  gap: 20px; /* Space between categories */
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribute items evenly */
+  gap: 20px; /* Space between each .container323 */
   margin-top: -20px;
   padding: 10px;
   background-color: #E8E8E8;
@@ -51,7 +142,7 @@
   border-radius: 0px;
   overflow: hidden;
   flex: 0 0 30%; /* Adjust to show 5 products in one screen */
-  max-width: 18%; /* Adjust to 20% for 5 products */
+  max-width: 18.2%; /* Adjust to 20% for 5 products */
   margin: 8px;
   height: auto;
   padding: 10px;
