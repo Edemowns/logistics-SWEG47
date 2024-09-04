@@ -16,7 +16,7 @@ const product_data = {
         description: "High-security bolt seal...",
         price: 100,
         currency: "GHC",
-        thumb: require('../Media/TRYB2.png'),
+        thumb: require('../Media/yellowbolt2.png'),
       },
       {
         id: 3,
@@ -24,7 +24,7 @@ const product_data = {
         description: "High-security bolt seal...",
         price: 100,
         currency: "GHC",
-        thumb: require('../Media/TRYB.png'),
+        thumb: require('../Media/greenbolt.png'),
       },
       {
         id: 4,
@@ -32,7 +32,7 @@ const product_data = {
         description: "High-security bolt seal...",
         price: 100,
         currency: "GHC",
-        thumb: require('../Media/p7.jpg'),
+        thumb: require('../Media/bluebolt.png'),
       },
       {
         id: 5,
@@ -40,7 +40,7 @@ const product_data = {
         description: "High-security bolt seal...",
         price: 100,
         currency: "GHC",
-        thumb: require('../Media/PsSQ.jpg'),
+        thumb: require('../Media/yellowbolt3.png'),
       },
       {
         id: 6,
