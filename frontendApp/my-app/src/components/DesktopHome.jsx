@@ -11,7 +11,7 @@ const Home = () => {
   const handleNavigateToProduct = () => {
     if (productSectionRef.current) {
       // Scroll to the element with a specific offset
-      const offset = 150; // Adjust this value to set how much above or below the target element you want to scroll
+      const offset = -160; // Adjust this value to set how much above or below the target element you want to scroll
       const elementPosition = productSectionRef.current.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({
         top: elementPosition - offset,

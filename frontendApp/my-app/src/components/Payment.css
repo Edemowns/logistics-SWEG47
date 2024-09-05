@@ -1,7 +1,9 @@
 .payment-page {
   padding: 20px;
-  background-color: #f5f5f5;
   font-family: 'Roboto', sans-serif;
+  text-align: left;
+  width: 80%;
+  margin-left: 125px;
 }
 
 .checkout-heading {
@@ -9,6 +11,7 @@
   margin-bottom: 20px;
   color: #333;
   text-align: center;
+  font-weight: 700;
 }
 
 .content {
