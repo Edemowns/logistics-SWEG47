@@ -151,7 +151,7 @@ const product_data = {
         description: "Versatile plastic seal...",
         price: 150,
         currency: "GHC",
-        thumb: require('../Media/p4.jpg'),
+        thumb: require('../Media/greenplasticseal.png'),
       },
       {
         id: 19,
@@ -159,7 +159,7 @@ const product_data = {
         description: "Versatile plastic seal...",
         price: 150,
         currency: "GHC",
-        thumb: require('../Media/p4.jpg'),
+        thumb: require('../Media/blueplasticseal.png'),
       },
       {
         id: 20,
