@@ -2,9 +2,9 @@ import React from 'react';
 import './Product.css';
 import product_data from './product_data.jsx'; // Import the product data
 import { useNavigate } from 'react-router-dom';
-import BoltImage from '../Media/P8Q.jpg';
-import PlasticImage from '../Media/p4Q.jpg';
-import CableImage from '../Media/p7Q.jpg';
+import BoltImage from '../Media/multicolouredcable.png';
+import PlasticImage from '../Media/multicolouredplastic.png';
+import CableImage from '../Media/multicoloured2.png';
 
 const TextBox = () => {
   const navigate = useNavigate();
