@@ -48,7 +48,7 @@ const product_data = {
         description: "High-security bolt seal...",
         price: 100,
         currency: "GHC",
-        thumb: require('../Media/TRYB2.png'),
+        thumb: require('../Media/whitebolt.png'),
       },
       {
         id: 7,
@@ -56,7 +56,7 @@ const product_data = {
         description: "High-security bolt seal...",
         price: 100,
         currency: "GHC",
-        thumb: require('../Media/TRYB.png'),
+        thumb: require('../Media/bluebolt.png'),
       },
       {
         id: 8,
@@ -64,7 +64,7 @@ const product_data = {
         description: "High-security bolt seal...",
         price: 100,
         currency: "GHC",
-        thumb: require('../Media/p7.jpg'),
+        thumb: require('../Media/greenbolt.png'),
       },
       
       // More bolt seals...
@@ -76,7 +76,7 @@ const product_data = {
         description: "Durable cable seal...",
         price: 80,
         currency: "GHC",
-        thumb: require('../Media/p2.jpg'),
+        thumb: require('../Media/bluecable.png'),
       },
       {
         id: 10,
@@ -84,7 +84,7 @@ const product_data = {
         description: "Durable cable seal...",
         price: 80,
         currency: "GHC",
-        thumb: require('../Media/p2.jpg'),
+        thumb: require('../Media/orangecable.png'),
       },
       {
         id: 11,
@@ -92,7 +92,7 @@ const product_data = {
         description: "Durable cable seal...",
         price: 80,
         currency: "GHC",
-        thumb: require('../Media/p2.jpg'),
+        thumb: require('../Media/redcable.png'),
       },
       {
         id: 12,
@@ -100,7 +100,7 @@ const product_data = {
         description: "Durable cable seal...",
         price: 80,
         currency: "GHC",
-        thumb: require('../Media/p2.jpg'),
+        thumb: require('../Media/greencableseal.png'),
       },
       {
         id: 13,
@@ -108,7 +108,7 @@ const product_data = {
         description: "Durable cable seal...",
         price: 80,
         currency: "GHC",
-        thumb: require('../Media/p2.jpg'),
+        thumb: require('../Media/greencableseal.png'),
       },
       {
         id: 14,
@@ -116,7 +116,7 @@ const product_data = {
         description: "Durable cable seal...",
         price: 80,
         currency: "GHC",
-        thumb: require('../Media/p2.jpg'),
+        thumb: require('../Media/redcable.png'),
       },
       {
         id: 15,
@@ -124,7 +124,7 @@ const product_data = {
         description: "Durable cable seal...",
         price: 80,
         currency: "GHC",
-        thumb: require('../Media/p2.jpg'),
+        thumb: require('../Media/orangecable.png'),
       },
       {
         id: 16,
@@ -132,7 +132,7 @@ const product_data = {
         description: "Durable cable seal...",
         price: 80,
         currency: "GHC",
-        thumb: require('../Media/p2.jpg'),
+        thumb: require('../Media/bluecable.png'),
       },
       // More cable seals...
     ],
@@ -183,7 +183,7 @@ const product_data = {
         description: "Versatile plastic seal...",
         price: 150,
         currency: "GHC",
-        thumb: require('../Media/p4.jpg'),
+        thumb: require('../Media/orangeplasticseal.png'),
       },
       {
         id: 23,
@@ -191,7 +191,7 @@ const product_data = {
         description: "Versatile plastic seal...",
         price: 150,
         currency: "GHC",
-        thumb: require('../Media/p3.jpg'),
+        thumb: require('../Media/blueplasticseal.png'),
       },
       {
         id: 24,
@@ -199,7 +199,7 @@ const product_data = {
         description: "Versatile plastic seal...",
         price: 150,
         currency: "GHC",
-        thumb: require('../Media/p3.jpg'),
+        thumb: require('../Media/yellowplasticseal.png'),
       },
       {
         id: 25,
@@ -207,7 +207,7 @@ const product_data = {
         description: "Versatile plastic seal...",
         price: 150,
         currency: "GHC",
-        thumb: require('../Media/p2.jpg'),
+        thumb: require('../Media/whiteplasticseal.png'),
       },
       
       
