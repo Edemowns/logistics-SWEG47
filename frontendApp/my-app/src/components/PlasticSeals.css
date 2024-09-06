@@ -5,8 +5,7 @@
     box-sizing: border-box; /* Include padding in width/height calculations */
     margin: 0 auto; /* Center the container */
     border-radius: 0;
-    margin-bottom: 40px;
-    margin-top: 30px;
+    background-color: #E8E8E8;
 
  
   }
@@ -20,6 +19,8 @@
     color: #000000;
     margin-left: -1px;
     text-align: left;
+   
+    margin-top: 20px;
 
 
    
@@ -30,6 +31,7 @@
     flex-wrap: wrap; /* Wrap items to the next line */
     justify-content: space-between; /* Even spacing between products */
     gap: 10px; /* Space between product containers */
+      margin-bottom: 50px;
   }
   
   /* Product Container */
@@ -47,6 +49,7 @@
   justify-content: space-between; /* Ensure content is spaced evenly */
   position: relative; /* Allow absolute positioning within the container */
   height: 360px;
+  
 
   
   }
@@ -58,6 +61,7 @@
   padding: 20px;
   box-sizing: border-box;
   background-color: #E8E8E8;
+
 
 }
   
