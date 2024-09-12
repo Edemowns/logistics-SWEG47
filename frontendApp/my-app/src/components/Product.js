@@ -28,7 +28,9 @@ const TextBox = () => {
   const shuffledProducts = combinedProducts.sort(() => Math.random() - 0.5);
 
   return (
+   
     <div className="text-box-container">
+       <div className="grid-container">
       <div
         className="container323"
         onClick={() => handleNavigate('/bolt-seals')}
@@ -63,6 +65,7 @@ const TextBox = () => {
           alt="Plastic Seals Category"
           className="container323-image"
         />
+      </div>
       </div>
 
       <h1 className="products-title">Featured Products</h1>

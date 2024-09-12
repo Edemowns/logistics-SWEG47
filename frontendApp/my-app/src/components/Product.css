@@ -2,65 +2,35 @@
 /* Parent container for the product boxes */
 
 
+/* Grid container to display 3 items per row */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 150px; /* Space between grid items */
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1400px; /* Adjust width as needed */
+  margin-right: 150px;
+}
+
 /* Ensure .container323 components are aligned side by side */
-.container323 {
-  width: 460px;/* Adjust to fit three items side by side */
-  max-width: 80%;
+.container323, .container3231, .container3232 {
+  width: 150%; /* Set width to auto-fit the grid */
+  max-width:29.3rem;
   height: 265px;
   background: #FFFFFFFF;
   border-radius: 0px;
   box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
-  display: flex; /* Flexbox for layout */
-  align-items: center; /* Center content vertically */
-  justify-content: space-between; /* Space between text and image */
-  padding: -60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: -10px;
   box-sizing: border-box;
-  margin-bottom: 10px;
-  margin-left: 13px;
-  margin-top: 10px;
+  margin: 10px 0; /* Adjust vertical spacing */
+  margin-right: -20px;
 }
-.container323:hover {
-  transform: scale(1.04);
-  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
-}
-.container3231 {
-  width: 460px;/* Adjust to fit three items side by side */
-  max-width: 80%;
-  height: 265px;
-  background: #FFFFFFFF;
-  border-radius: 0px;
-  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
-  display: flex; /* Flexbox for layout */
-  align-items: center; /* Center content vertically */
-  justify-content: space-between; /* Space between text and image */
-  padding: -60px;
-  box-sizing: border-box;
-  margin-bottom: 10px;
-  margin-left: -4px;
-  margin-top: 10px;
-  
-}
-.container3231:hover {
-  transform: scale(1.04);
-  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
-}
-.container3232 {
-  width: 460px;/* Adjust to fit three items side by side */
-  max-width: 80%;
-  height: 265px;
-  background: #FFFFFFFF;
-  border-radius: 0px;
-  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
-  display: flex; /* Flexbox for layout */
-  align-items: center; /* Center content vertically */
-  justify-content: space-between; /* Space between text and image */
-  padding: -60px;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  margin-right: 30px;
-  margin-top: 10px;
-}
-.container3232:hover {
+
+.container323:hover, .container3231:hover, .container3232:hover {
   transform: scale(1.04);
   box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
 }
@@ -85,6 +55,23 @@
   border-radius: 3px;
   object-fit: cover;
   margin-right: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr); /* 2 items per row on medium screens */
+  }
+  .container323, .container3231, .container3232 {
+    max-width: 25rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* 1 item per row on small screens */
+  }
 }
 
 
@@ -138,21 +125,21 @@
 }
 
 .text-box {
+  flex: 1 1 calc(20% - 10px); /* Adjust to fit five items per row */
+  max-width: calc(20% - 5px); /* Ensure the max width fits five items */
   text-align: center;
   border-radius: 0px;
   overflow: hidden;
-  flex: 0 0 30%; /* Adjust to show 5 products in one screen */
-  max-width: 18.2%; /* Adjust to 20% for 5 products */
-  margin: 8px;
   height: auto;
   padding: 10px;
   border: 1px solid white;
   background-color: white;
+  transition: all 0.1s ease-in-out;
 }
 
 
 .text-box:hover {
-  transform: scale(1.06);
+  transform: scale(1.03);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
